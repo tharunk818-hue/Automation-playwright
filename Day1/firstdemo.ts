@@ -1,1 +1,1 @@
-console.log("welcome to Typescript")
+console.log("tharun macbook pro main product")
