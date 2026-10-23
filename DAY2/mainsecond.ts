@@ -1,1 +1,0 @@
-console.log("people in the world are super")
