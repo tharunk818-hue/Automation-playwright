@@ -60,8 +60,60 @@ function blockscope()
     }
     //console.log(msg); // connot access
     //console.log(greeting); // connot access
+
 }
 
 blockscope(); 
+
+
+//2) Declaration /value assignment
+
+// Example1: Var can be declared without initialization
+
+
+/* var x //declaration
+console.log(x); //undefined
+x= 30; //initialization
+console.log (x);
+
+
+var and let both can be used declaration and initilization  */
+
+/* let y //declaration
+console.log(y); //undefined
+y= 30; //initialization
+console.log (y); */
+
+
+//Example 3: const must be initiliazed at the time of declaration
+
+//const z; // incorrect
+
+
+/* const z=30; // correct
+console.log(z); */
+
+//3) Re-declaration
+
+// var - allows re-declaration
+//let and const - does not allow re-declaration
+
+//eample 1: var allows redeclarion
+/* var city = "Bangalore";
+var city = "Mysore";
+console.log(city);  */
+
+/* exmaple 2: let and const does not allow re-declaration */
+
+/* let city = "Bangalore";
+let city = "Mysore"; //error
+console.log(city); */
+
+/* example 3: const does not allow re-declaration
+
+const city = "Bangalore";
+const city = "Mysore"; //error
+console.log(city); 
+ */
 
 
